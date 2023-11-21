@@ -1,0 +1,52 @@
+{
+  "name": "SERPICO",
+  "short_name": "Test",
+  "theme_color": "#04ff74",
+  "background_color": "#d0ff00",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src":"public/img/icons/icon-72x72.ico",
+      "size": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-96x96.ico",
+      "size": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-128x128.ico",
+      "size": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-144x144.ico",
+      "size": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-152x152.ico",
+      "size": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-192x192.ico",
+      "size": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-384x384.png",
+      "size": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src":"public/img/icons/icon-512x512.png",
+      "size": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
