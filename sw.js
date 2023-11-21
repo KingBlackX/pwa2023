@@ -22,7 +22,7 @@ if (workbox) {
   );
 
   //Hacemos que el contenido en JS y CSS sean rapidos devolviendo los assets de la cache
-  workbox.routing,registerRoute(
+  workbox.routing.registerRoute(
     //Cache de js, css y archivos cdn
     /.*\.(?:css|js|scss|)/,
 
