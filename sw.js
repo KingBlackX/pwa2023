@@ -7,7 +7,7 @@ if (workbox) {
   console.log("workbox esta cargado.");
   workbox.precaching.precacheAndRoute([]);
   // Cahe de imagenes en la carpeta public/img
-  workbox.routing.registerRoute(/(.)others(.)\.(?:png|gif|jpg)/, new workbox.strategies.CacheFirst({
+  workbox.routing.registerRoute(/(.*)others(.*)\.(?:png|gif|jpg)/, new workbox.strategies.CacheFirst({
     cacheName: "images",
     plugins: [
       new workbox.expiration.Plugin({
